@@ -1,2 +1,2 @@
 # uniflowpool
-Library which allows create dynamic pool of any objects
+This library facilitates the creation of a dynamic pool for various objects. To incorporate it into your project, initialize a NewEntitiesPool. This pool supports the addition of diverse objects to memory, functioning effectively in a multithreaded environment. The responsibility for determining the criteria for object allocation within the pool rests with the user. The operational principle of this pool is based on a queue system, where objects are appended to the end of the queue and retrieved from the front, ensuring efficient management and access. 
